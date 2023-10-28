@@ -13,9 +13,6 @@ The model is trained live, every new 50 data points. This number is configurable
 
 After each training session, each model will make a prediction on some recent testing data, and a weight will be assigned to each model that's proportional to the test accuracy values. The predictions made by each model will be linearly combined using their corresponding weight values to produce the final prediction.
 
-**I need to update the README after this point...**
-
-# ------- OUTDATED AFTER THIS POINT --------
 
 ## How it works
 * The file ```utils.py``` contains all the methods used to calculate the different technical indicators of a given asset.
