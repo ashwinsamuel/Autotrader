@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Who haven't though about using ML for stock market predictions! This repository offers educational content for how a trade bot can be built in python using relatively simple components. 
+Who hasn't though about using ML for stock market predictions! This repository offers educational content for how a trade bot can be built in python using relatively simple components. 
 
 For this purpose, 3 relatively common classifiers were chosen: `K-Nearest-Neighbor`, `Gaussian Naive-Bayes` and `Random Forest` from the `scikit-learn` library. Inputs to the model consists of normalized technical indicator values ranging from (0, 1), and the three models will classify the input to one of three classes: **-1** or a **buy** signal, **+1** or a **sell** signal, **0** or a **hold** signal.
 
